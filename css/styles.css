@@ -21,6 +21,7 @@ body {
   background-color: var(--secondary-bg-color);
   font-family: roboto, sans-serif;
 }
+
 .logo {
   color: var(--accent-color);
   font-family: raleway, serif;
@@ -64,6 +65,7 @@ body {
 }
 
 /* auth-nav */
+
 .auth-nav .link {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -76,6 +78,7 @@ body {
 }
 
 /* main section */
+
 .main-title {
   color: var(--primary-white-color);
   font-weight: 900;
@@ -85,6 +88,7 @@ body {
 }
 
 /* section */
+
 .section-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -94,24 +98,28 @@ body {
 }
 
 /* tasks */
+
 .tasks .title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
 }
+
 .tasks .text {
   font-size: 14px;
   line-height: 1.7;
 }
 
 /* team */
+
 .team .title {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
 }
+
 .team .text {
   font-size: 16px;
   line-height: 1.2px;
@@ -129,11 +137,13 @@ body {
 .logo-footer:focus {
   color: var(--accent-color);
 }
+
 .address {
   color: rgba(255, 255, 255, 1);
   font-size: 14px;
   line-height: 1.7;
 }
+
 .footer-link {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
@@ -145,6 +155,7 @@ body {
 }
 
 /* button */
+
 .button {
   color: var(--title-text-color);
   background-color: var(--primary-bg-color);
@@ -165,6 +176,11 @@ body {
 .button.secondary {
   color: var(--title-text-color);
   background-color: var(--primary-bg-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
 }
 
 .button:hover,
@@ -179,4 +195,9 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 2px;
+}
+
+.progect .text {
+  font-size: 16px;
+  line-height: 1.9;
 }
