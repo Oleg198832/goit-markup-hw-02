@@ -28,6 +28,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  text-decoration: none;
 }
 .logo:hover,
 .logo:focus {
@@ -52,6 +53,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -62,6 +64,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
+  text-decoration: none;
 }
 
 /* auth-nav */
@@ -71,6 +74,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
+  text-decoration: none;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
@@ -85,6 +89,7 @@ body {
   font-size: 44px;
   line-height: 1.4;
   text-align: center;
+  text-transform: uppercase;
 }
 
 /* section */
@@ -104,6 +109,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
+  text-transform: uppercase;
 }
 
 .tasks .text {
@@ -142,12 +148,14 @@ body {
   color: rgba(255, 255, 255, 1);
   font-size: 14px;
   line-height: 1.7;
+  font-style: normal;
 }
 
 .footer-link {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 1.7;
+  text-decoration: none;
 }
 .footer-link:hover,
 .footer-link:focus {
@@ -186,6 +194,11 @@ body {
 .button:hover,
 .button:focus {
   background-color: var(--accent-color);
+}
+
+/* стили для li */
+li {
+  list-style-type: none;
 }
 
 /* стили для portfolio.html */
